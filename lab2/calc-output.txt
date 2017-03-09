@@ -1,0 +1,26 @@
+Script started on Thu 30 Jan 2014 12:45:52 PM PST
+[?1034hbash-4.1$ ./calc six + three
+INVALID FIRST NUMBER. ABORTING PROGRAM.
+bash-4.1$ ./calc 6 + 3[Kthree
+INVALID SECOND NUMBER. ABORTING PROGRAM.
+bash-4.1$ ./calc 6 = 3
+INVALID OPERATOR. ABORTING PROGRAM.
+bash-4.1$ ./calc 6 + 3
+6 + 3 = 9
+END OF PROGRAM
+bash-4.1$ ./calc 6 - 3
+6 - 3 = 3
+END OF PROGRAM
+bash-4.1$ ./calc 6 x 3
+6 x 3 = 18
+END OF PROGRAM
+bash-4.1$ ./calc 6 / 3
+6 / 3 = 2
+END OF PROGRAM
+bash-4.1$ ./calc 6 \\ 3
+6 \ 3 = 2
+END OF PROGRAM
+bash-4.1$ exit
+exit
+
+Script done on Thu 30 Jan 2014 12:47:04 PM PST

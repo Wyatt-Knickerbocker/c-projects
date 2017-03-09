@@ -1,0 +1,7 @@
+Script started on Thu 23 Jan 2014 10:41:35 AM PST
+[?1034hbash-4.1$ ./a.out
+Hello world!
+bash-4.1$ exit
+exit
+
+Script done on Thu 23 Jan 2014 10:41:43 AM PST

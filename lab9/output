@@ -1,0 +1,31 @@
+Script started on Thu 03 Apr 2014 12:12:06 PM PDT
+[?1034hbash-4.1$ ls
+link.cpp  linkTest  stack.cpp  stackTest      stack.txt
+link.h	  output    stack.h    stackTest.cpp  testlink.cpp
+bash-4.1$ g++ stackTest.cpp stack.cpp -ostackTest stackTest
+bash-4.1$ g++ testlink.cpp link.cpp -o linkTest
+bash-4.1$ ./stackTest 
+PUSHING ONTO STACK:
+
+OPERATOR: + | PRECEDENCE: 1
+OPERATOR: , | PRECEDENCE: 2
+OPERATOR: - | PRECEDENCE: 3
+OPERATOR: . | PRECEDENCE: 4
+OPERATOR: / | PRECEDENCE: 5
+POPPING FROM STACK:
+
+OPERATOR: / | PRECEDENCE: 5
+OPERATOR: . | PRECEDENCE: 4
+OPERATOR: - | PRECEDENCE: 3
+OPERATOR: , | PRECEDENCE: 2
+OPERATOR: + | PRECEDENCE: 1
+bash-4.1$ -[K./linkTest 
+L1 = { - , + * ) }
+L2 = { / . - , + }
+Deleting last node from L2:
+L2 = { / . - , }
+After Union = { . / - , + * ) }
+bash-4.1$ exit
+exit
+
+Script done on Thu 03 Apr 2014 12:13:05 PM PDT

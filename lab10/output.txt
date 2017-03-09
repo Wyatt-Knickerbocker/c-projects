@@ -1,0 +1,485 @@
+Script started on Thu 17 Apr 2014 12:21:12 PM PDT
+[?1034hbash-4.1$ ./a.out
+ALL FILES LOADED.
+
+Welcome to the move database.
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 1
+
+ALL MOVIES:
+
+Mod Squad 
+The Jack Benny Program
+I Love Lucy
+The Adventures of Ozzie & Harriet
+Topper
+Lassie
+The Honeymooners
+The Phil Silvers Show
+Alfred Hitchcock Presents
+Leave It to Beaver
+Mister Ed
+Mr. Lucky
+The Twilight Zone
+Rawhide
+The Many Loves of Dobie Gillis
+The Andy Griffith Show
+My Three Sons
+The Bullwinkle Show
+The Lucy Show
+McHale's Navy
+The Beverly Hillbillies
+The Saint
+Burke's Law
+The Fugitive
+Voyage to the Bottom of the Sea
+Gomer Pyle: USMC
+The Man from U.N.C.L.E.
+Bewitched
+Gilligan's Island
+Lost in Space
+The Wild Wild West
+Gidget
+The Big Valley
+F Troop
+Hogan's Heroes
+I Dream of Jeannie
+Batman
+Star Trek
+Mannix
+The Carol Burnett Show
+Ironside
+The Invaders
+The Flying Nun
+Room 222
+Mary Tyler Moore
+McCloud
+All in the Family
+The Streets of San Francisco
+The Bob Newhart Show
+Banacek
+M*A*S*H
+Kojak
+Happy Days
+Little House on the Prairie 
+The Six Million Dollar Man
+The Jeffersons
+Wonder Woman
+Charlie's Angels
+CHiPs
+WKRP in Cincinnati
+Taxi
+Battlestar Galactica
+Mork & Mindy
+Benson
+The Fall Guy
+Family Ties
+Newhart
+Scarecrow and Mrs. King
+The A-Team
+The Cosby Show
+Murder, She Wrote
+Riptide
+Night Court
+MacGyver
+MacGyver
+Matlock
+Married with Children
+Star Trek: The Next Generation
+Jake and the Fatman
+The Simpsons
+Coach
+Seinfeld
+Quantum Leap
+Law & Order
+Evening Shade
+Northern Exposure
+Herman's Head
+The X-Files
+Star Trek: Deep Space Nine
+Animaniacs
+Walker, Texas Ranger
+Kung Fu: The Legend Continues
+ER
+Babylon 5
+JAG
+3rd Rock from the Sun
+Dexter's Laboratory
+Futurama
+NCIS
+Lost
+American Dad!
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2 3
+Please enter a title.
+Title: the saint
+
+Actors in the saint:
+Roger Moore
+Ivor Dean
+Leslie Crawford
+Justine Lord
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 3
+Please enter a title.
+Title: newhart
+
+Actors in newhart:
+Bob Newhart	
+Mary Frann
+Tom Poston
+Julia Duffy	
+Peter Scolari
+William Sanderson
+Tony Papenfuss
+John Voldstad
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 3
+Please enter a title.
+Title: dexter's laboratory
+
+Actors in dexter's laboratory:
+Kath Soucie
+Jeff Bennett
+Christine Cavanaugh
+Frank Welker
+Tom Kenny
+Allison Moore
+Kathryn Cressida
+Rob Paulsen
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 3
+Please enter a title.
+Title: M*A*S*M h H
+
+Actors in M*A*S*H:
+Alan Alda
+Loretta Swit
+Jamie Farr
+William Christopher	
+Harry Morgan
+Mike Farrell
+Kellye Nakahara
+Gary Burghoff
+David Ogden Stiers
+Larry Linville
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 3
+Please enter a title.
+Title: mork and mindy
+
+Actors in mork and mindy:
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 3
+Please enter a title.
+Title: the x-fil;e  es
+
+Actors in the x-files:
+Gillian Anderson
+David Duchovny
+Mitch Pileggi
+Robert Patrick
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: sally field
+sally field
+
+Shows with sally field:
+Gidget
+The Flying Nun
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: june lockhart
+june lockhart
+
+Shows with june lockhart:
+Lassie
+Lost in Space
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: andy griffith
+andy griffith
+
+Shows with andy griffith:
+The Andy Griffith Show
+Matlock
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: william conrad
+william conrad
+
+Shows with william conrad:
+The Bullwinkle Show
+The Fugitive
+Jake and the Fatman
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: seth macfarlane
+seth macfarlane
+
+Shows with seth macfarlane:
+American Dad!
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: macguyver
+macguyver
+
+Shows with macguyver:
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: macgyver
+macgyver
+
+Shows with macgyver:
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: tom polston
+tom polston
+
+Shows with tom polston:
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 2
+Please enter a name.
+Name: Justine Lord
+Justine Lord
+
+Shows with Justine Lord:
+The Saint
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 4
+Please enter a year.
+Year: 1960
+
+Shows started in the decade of 1960:
+Mod Squad 
+The Andy Griffith Show
+My Three Sons
+The Bullwinkle Show
+The Lucy Show
+McHale's Navy
+The Beverly Hillbillies
+The Saint
+Burke's Law
+The Fugitive
+Voyage to the Bottom of the Sea
+Gomer Pyle: USMC
+The Man from U.N.C.L.E.
+Bewitched
+Gilligan's Island
+Lost in Space
+The Wild Wild West
+Gidget
+The Big Valley
+F Troop
+Hogan's Heroes
+I Dream of Jeannie
+Batman
+Star Trek
+Mannix
+The Carol Burnett Show
+Ironside
+The Invaders
+The Flying Nun
+Room 222
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 4
+Please enter a year.
+Year: 1970
+
+Shows started in the decade of 1970:
+Mary Tyler Moore
+McCloud
+All in the Family
+The Streets of San Francisco
+The Bob Newhart Show
+Banacek
+M*A*S*H
+Kojak
+Happy Days
+Little House on the Prairie 
+The Six Million Dollar Man
+The Jeffersons
+Wonder Woman
+Charlie's Angels
+CHiPs
+WKRP in Cincinnati
+Taxi
+Battlestar Galactica
+Mork & Mindy
+Benson
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 4
+Please enter a year.
+Year: 1990
+
+Shows started in the decade of 1990:
+Law & Order
+Evening Shade
+Northern Exposure
+Herman's Head
+The X-Files
+Star Trek: Deep Space Nine
+Animaniacs
+Walker, Texas Ranger
+Kung Fu: The Legend Continues
+ER
+Babylon 5
+JAG
+3rd Rock from the Sun
+Dexter's Laboratory
+Futurama
+Press Enter to continue.
+
+Please choose an option:
+0) Exit Program;
+1) Show All Movies;
+2) Find Shows by Actor;
+3) Find Actors By Show;
+4) Find Shows By Decade;
+Choice: 0
+Thank you, goodbye.
+
+-------
+bash-4.1$ exit
+exit
+
+Script done on Thu 17 Apr 2014 12:24:12 PM PDT

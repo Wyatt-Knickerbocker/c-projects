@@ -1,0 +1,15 @@
+CALCULATOR DESIGN
+
+MUST use Reverse Polish Notation.
+
+MUST use stack.
+
+Needs to parse input line.
+
+Must be able to do simple maths.
+
+Must also square/square root.
+
+Must also duplicate/swap.
+
+Bad input is handled silently.

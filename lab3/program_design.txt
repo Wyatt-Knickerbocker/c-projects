@@ -1,0 +1,21 @@
+DESIGN DOCUMENT
+
+1. Be able to declare array size before creating array.
+
+2. Establish the two arrays, using BOOL. T for alive, F for dead
+.
+3. Seed random initial cells in starting array.
+
+5. Print initial generation. Ask for iterations.
+
+6. Walk through array to check values.
+	a)If cell is alive, write to "nextgen" array as dead, check dead neighbours for life.
+		i) If only touching one live cell, becomes alive in "nextgen".
+		ii) Else cell remains dead.
+	b)If cell is dead, skip cell.
+	
+7. "nextgen" becomes current. Clear "nextgen".
+
+8. Re-print, repeat. Include escape value.
+
+Maybe four hours total time????

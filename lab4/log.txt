@@ -1,0 +1,18 @@
+Fixed the stack to make it work. Ran teststack.cpp to check.
+
+Tried setting up the prompt, bugchecking through cout instead of stack.
+
+cin DOES NOT WORK. Cannot set bits to end bit or failbit.
+
+Using cstring library to parse using strtok and compare against operators with strcmp.
+
+So much easier.
+
+Set up rest of operands after checking single process works.
+
+Quit does not quit when a floating point number (2.5) is in the stack.
+
+Turns out the destructor was still set to int and was running into trouble with the floating
+point numbers.
+
+Calculator now runs properly.

@@ -1,0 +1,33 @@
+WYATT KNICKERBOCKER
+
+CS 121-01
+
+3/6/2014
+
+ERRORS:
+-------
+
+LINE(S): 36, 37 (Main), 61 reverseIt)
+	Compiler warning: incompatible implicit declaration of built-in functions strlen, strcpy.
+	
+	fix: include string.h ; simple fix.
+	
+LINE(S): 30-31 (Main)
+	Runtime error: double-prints the first word and whole second sentence to the console.
+	
+	fix: Change "fprintf" to "printf" and adjust output accordingly. Considering fprintf to stderr in this case just prints to the console, there is no reason not to also be able to print like this..
+
+LINE(S): 39, 47 (Main), 66(reverseIt)
+	Runtime error: instead of printing reversed string, prints '(null)'
+	
+	fix: The error is actually a symptom of an amalgamation of multiple bugs.
+	
+	1)( line 37 ) strcpy() is written backwards; change positions of stringBuffer and argc[1];
+	2)( line 43 ) in printf(), *stringBuffer is incorrect notation. Drop the '*';
+	3)(line 61 ) in reverseIt, while setting pointer Stop, the +1 is unnecessary and breaks the code. Remove it.
+	
+LINE(S): 89-90 (reverseIt)
+	Memory error: frees the memory of head before pointing node at next segment of list.
+	
+	fix: swap the two lines in code, allowing node to point to the next segment before freeing the previous. While the program was able to run fine before, this will prevent any chance of there being a memory leak.
+	

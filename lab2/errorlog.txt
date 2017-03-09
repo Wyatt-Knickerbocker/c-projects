@@ -1,0 +1,31 @@
+ERRORLOG:
+
+compile 1: Shows arguments. forgot 'int' after 'i' in for loop.
+
+compile 2: does not print "END OF PROGRAM" at end. Everything else runs fine.
+
+compile 3: Change to accept no less than 3 args. works smoothly.
+
+compile 4: Change to manipulate args. Missed an endl. output not pretty. Irrelevant. If words added, ato? gives 0.
+
+compile 5: Change to check if argv[] is actually argv[][] for error checking. This is true.
+
+compile 6: Attempt to use argv[][] as error check. Always throws error.
+
+compile 7: Problem was comparing argv[][] to '0' to '9' using series of '||'. Comparing against ACII value works.
+
+compile 8: Added switch, extra error catching. First full calculator with multiply, divide, add, subtract. Typo "arg[][]" in switch statement.
+
+compile 9: Runs fine. Forgot break statement so inadvertently checked all switch statements. All run as expected.
+
+compile 10: Removed debug CHECKING AGAINST line. All error handling aborts program as expected. Complete.
+
+QUESTIONS
+
+1) the name of the program is first. in my case, either ./a.out or ./calc
+
+2) the last object in the array of c strings is the last item entered as a command-line argument.
+
+3) the default of ato?, as seen in compile version 4, is '0'. I added a check so that it throws an error before it reaches the ato? function.
+
+4) My program handles + , - , x , / and for funsies, and escaped \ written as \\

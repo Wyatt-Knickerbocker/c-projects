@@ -1,0 +1,11 @@
+Compile 1: Check that arrays work. Set value, inserts into dynamic array. Set length 5, printed 6.
+
+Compile 2: Make sure it prints the right amount. Done. Prints array with proper values.
+
+Compile 3: Seeding. Works fine.
+
+Compile 4: Print function. Successful.
+
+Compile 5: Add second array. Okay.
+
+Compile 6 to last: Ran into serious problem with death not occurring between live creatures. Problem solved with proper use of a "flip" operation applied to next gen array.

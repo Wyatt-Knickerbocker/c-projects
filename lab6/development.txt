@@ -1,0 +1,42 @@
+Design
+----------
+
+The program will take exactly two command-line arguments, in the order "in-file" and "out-file".
+
+It will print help if no arguments (i.e. argv == 1) are included, and will inform the user on what to do.
+
+It will check to see if the in-file exists, and if the out-file exists.
+
+It will throw an error if there is no in-file and abort the program.
+
+It will ask the user if they wish to continue if the out-file exists, warning of over-write.
+
+It will then read in the information from the in-file into an array delared size 100.
+
+It will pass that array onto a function that will calculate the MIN, MAX, and AVG of the data.
+
+It will take the AVG and pass it into the STD DEV function to calculate the standard deviation.
+
+During this time, the program will print its progress to the screen.
+
+When it is done, the program will alert the user and finish successfully.
+---------------------------------------------
+
+
+
+
+Programming log
+---------------
+
+The hardest part of this program was to figure out the FILE * and how to read and write information,
+which I did in other, seperate programs. Once I got the hang of it, it was pretty simple.
+
+I did have a problem with my error catching, as I had set my if statement against
+
+(argv !=3 || argv != 1)
+
+and this always threw up a run-time error due to how the logic works. Once I figured it out, it became
+
+(argv != 3 && argv !=1)
+
+and the rest of the program went smoothly.

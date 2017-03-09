@@ -1,0 +1,25 @@
+Script started on Thu 20 Feb 2014 11:53:43 AM PST
+[?1034hbash-4.1$ ./a.out
+RPN Calculator v 0.1 by Wyatt Knickerbocker
+RPN (empty) > 2 2 +
+RPN 4 > 2 -
+RPN 2 > 2 *
+RPN 4 > 2 /
+RPN 2 > ps
+CONTENTS: 2 
+RPN 2 > sq
+RPN 4 > sqrt
+RPN 2 > dup 1 +
+RPN 3 > ps
+CONTENTS: 3 2 
+RPN 3 > swap
+RPN 2 > 5.2 3.1 - sq 7.9 2.4 - sq + sqrt
+RPN 5.88727 > 4.2 sq 5.33 sq + sqrt
+RPN 6.78593 > ps
+CONTENTS: 6.78593 5.88727 2 3 
+RPN 6.78593 > quit
+QUIT TRUE. PROGRAM END.
+bash-4.1$ exit
+exit
+
+Script done on Thu 20 Feb 2014 11:55:07 AM PST

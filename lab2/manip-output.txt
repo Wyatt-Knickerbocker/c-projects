@@ -1,0 +1,17 @@
+Script started on Thu 30 Jan 2014 12:01:11 PM PST
+[?1034hbash-4.1$ ./a.oyu[Ku[K[Kut 12 and 56.7
+CHECKING AGAINST: 1
+INTEGER: 12 | FLOAT: 56.7
+END OF PROGRAM
+bash-4.1$ ./a.out one and 1.1
+CHECKING AGAINST: o
+INTEGER ERROR | FLOAT: 1.1
+END OF PROGRAM
+bash-4.1$ ./a.out 22 and three.five
+CHECKING AGAINST: 2
+INTEGER: 22 | FLOAT ERROR
+END OF PROGRAM
+bash-4.1$ exit
+exit
+
+Script done on Thu 30 Jan 2014 12:01:53 PM PST

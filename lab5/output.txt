@@ -1,0 +1,135 @@
+Script started on Thu 20 Feb 2014 11:26:18 AM PST
+bash-4.1$ touch link.cpp
+bash-4.1$ make testStack
+g++    -c -o testStack.o testStack.cpp
+g++    -c -o stack.o stack.cpp
+g++    -c -o link.o link.cpp
+g++ -o testStack testStack.o stack.o link.o
+bash-4.1$ ls
+binarysearch  link.h  makefile	     output.txt  stack.h  testStack	 testStack.o
+link.cpp      link.o  makefile.make  stack.cpp	 stack.o  testStack.cpp
+bash-4.1$ ./testStack
+Pushing integers onto iStack
+0 1 2 3 4 
+Contents of iStack
+4
+3
+2
+1
+0
+
+Popping integers from iStack
+4 3 2 1 0 
+The stack is empty
+bash-4.1$ ls
+binarysearch  link.h  makefile	     output.txt  stack.h  testStack	 testStack.o
+link.cpp      link.o  makefile.make  stack.cpp	 stack.o  testStack.cpp
+bash-4.1$ make clean
+rm -f testStack 
+rm *.o
+bash-4.1$ ls
+binarysearch  link.h	makefile.make  stack.cpp  testStack.cpp
+link.cpp      makefile	output.txt     stack.h
+bash-4.1$ cd binarysearch
+bash-4.1$ ls
+BSTree.cpp  BSTree.h  makefile	makefile.mak  TestTree	TestTree.cpp
+bash-4.1$ make TestTree
+g++    -c -o TestTree.o TestTree.cpp
+g++    -c -o BSTree.o BSTree.cpp
+g++ -o TestTree TestTree.o BSTree.o 
+bash-4.1$ ls
+BSTree.cpp  BSTree.h  BSTree.o	makefile  makefile.mak	TestTree  TestTree.cpp	TestTree.o
+bash-4.1$ ./TestTree
+
+ The Binary Search Tree using a Backward PostOrder traversal:
+        61
+            57
+    53
+            51
+        47
+            21
+15
+    13
+
+ The Binary Search Tree using an InOrder traversal:
+13
+15
+21
+47
+51
+53
+57
+61
+
+ The Binary Search Tree using a PreOrder traversal:
+15
+13
+53
+47
+21
+51
+61
+57
+
+ The Binary Search Tree using a PostOrder traversal:
+13
+21
+51
+47
+57
+61
+53
+15
+
+
+ Deleting node(s)
+    deleting  61 and 47
+        57
+    53
+        51
+            21
+15
+    13
+
+
+ Deleting entire tree
+    (Tree should be empty)
+
+ The Binary Search Tree using a Backward PostOrder traversal:
+        63
+    54
+        52
+48
+        16
+    14
+            10
+        8
+            1
+
+ Node: 45 was not found
+
+ Node: 48 was found in the BST
+
+ Node: 52 was found in the BST
+bash-4.1$ ls
+BSTree.cpp  BSTree.h  BSTree.o	makefile  makefile.mak	TestTree  TestTree.cpp	TestTree.o
+bash-4.1$ make clean
+rm -f testStack 
+rm *.o
+bash-4.1$ ls
+BSTree.cpp  BSTree.h  makefile	makefile.mak  TestTree.cpp
+bash-4.1$ exit
+exit
+
+1) Compiled files include:
+
+g++    -c -o testStack.o testStack.cpp
+g++    -c -o stack.o stack.cpp
+g++    -c -o link.o link.cpp
+g++ -o testStack testStack.o stack.o link.o
+
+2) The last argument compiles the *.o files into a single executable called testStack.
+
+3) Make removed all files pertinent to the make compilation process.
+
+Script done on Thu 20 Feb 2014 11:27:49 AM PST
